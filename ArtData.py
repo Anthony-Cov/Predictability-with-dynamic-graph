@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Как делали искусственные ряды
+Artificial series creator
 """
 import numpy as np
 import pandas as pd
