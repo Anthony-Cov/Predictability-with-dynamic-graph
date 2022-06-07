@@ -1,4 +1,6 @@
 <H1>Dynamic transition graph for estimating the predictability of financial and economical processes</H2>
 <p align=justify>The problem of time series predictability estimation always appears when we deal with a forecasting task. Especially when the process is not sustainable and performs some critical transitions or significantly changes its character. In these cases it is important to notice the moment when changes begin and to distinguish their direction as soon as possible in order to adjust the forecasting algorithm or, at least, properly evaluate the forecast veracity. We propose here the dynamic graph based method of real-time tracing the changes in a time-series predictability. This approach helps to filter some ‘noise’ information and emphasize the significant aspects in the complex dynamic system behavior. Besides, some graph characteristics, such as centrality degree, number and size of loops, connectivity and entropy, can be useful for predictability evaluation of the system which produces the time series.  A graph neural network classifier trained on the artificial data-set turned out to be able for time series predictability verification on every step of incremental tracing along the time series in real-time.
-<LI>ArtComposer.py - creates 1000 artificial time series of various predictability
-  
+<LI>ArtComposer.py - creates 1000 artificial time series of various predictability;
+<LI>ClassifNNerrors.ipynb - GNN classifier fitting, testing and application;  
+<LI>Libraries - Python procedures for graph manipulation, time series forecasting and score computation;
+<LI>Weekly_data - real world time series used in experiments.
